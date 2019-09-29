@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "ReactorKit"
-  s.version          = "2.0.1"
+  s.version          = "2.0.2"
   s.summary          = "A framework for reactive and unidirectional Swift application architecture"
   s.homepage         = "https://github.com/ReactorKit/ReactorKit"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Suyeol Jeon" => "devxoul@gmail.com" }
-  s.source           = { :git => "https://github.com/ReactorKit/ReactorKit.git",
+  s.source           = { :git => "git@code.aliyun.com:szfy_ios/ReactorKit.git",
                          :tag => s.version.to_s }
   s.source_files = "Sources/**/*.{swift,h,m}"
   s.frameworks   = "Foundation"
