@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Suyeol Jeon" => "devxoul@gmail.com" }
   s.source           = { :git => "git@code.aliyun.com:szfy_ios/ReactorKit.git",
-                         :tag => s.version.to_s }
+                         :tag => s.version }
   s.source_files = "Sources/**/*.{swift,h,m}"
   s.frameworks   = "Foundation"
   s.swift_version = "5.0"
-  s.dependency "RxSwift", "~> 5.0"
+  s.dependency "RxSwift"
 
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.11"
